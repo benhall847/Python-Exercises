@@ -1,0 +1,5 @@
+name = input("GIVE ME YOUR NAME! : ".upper())
+response = "Hello, %s!" % (name)
+response2 = "Your name has %s letters!" % (len(name))
+print(response.upper())
+print(response2.upper())
